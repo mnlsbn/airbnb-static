@@ -1,0 +1,25 @@
+.wrapper-brown{
+  color: #CCCCCC;
+  background: #333333;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.fa:hover{
+  color: yellow ;
+}
+
+.list-inline{
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+.logo{
+  padding-left: 20px;
+}
