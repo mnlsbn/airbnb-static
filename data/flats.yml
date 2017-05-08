@@ -1,0 +1,49 @@
+# data/flats.yml
+seb:
+  owner_name: Sebastien Loeb
+  picture: card-paris.png
+  owner_picture: seb.png
+  name: Seb's home
+  description: Charming loft in terrace
+  city: Paris, France
+  wifi: true
+  bedroom: 2
+  pets: yes
+  child: no
+  elevator: no
+  floor: 5
+  kitchen: yes
+  property_type: Loft
+  property_view: loft.png
+romain:
+  owner_name: Romain Duris
+  picture: card-london.png
+  owner_picture: romain.png
+  name: Romain's home
+  description: Nice flat in Oxford street
+  city: London, UK
+  wifi: false
+  bedroom: 3
+  pets: no
+  child: yes
+  elevator: yes
+  floor: 2
+  kitchen: yes
+  property_type: Appartment
+  property_view: appt.png
+anne:
+  owner_name: Anne Fulda
+  picture: card-brussels.png
+  owner_picture: anne.png
+  name: Anne's home
+  description: Stunning castle in Brussels
+  city: London, UK
+  wifi: yes
+  bedroom: 7
+  pets: yes
+  child: yes
+  elevator: no
+  floor: 2
+  kitchen: yes
+  property_type: Castle
+  property_view: castle.png

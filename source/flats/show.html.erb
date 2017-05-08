@@ -1,0 +1,45 @@
+<!-- source/flats/show.html.erb -->
+
+<!-- Read from data.flats with owner's name as key -->
+<% flat = data.flats[owner] %>
+
+<!-- Inject flat data in template -->
+<div class="container">
+  <div class="row">
+    <div class="flat details">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-1">
+        <%= image_tag flat.owner_picture, class: "img-circle" %>
+        <p><%= flat.owner_name %></p>
+        <div class="sum flat">
+          <h1><%= flat.description %></h1>
+          <p><%= flat.city %></p>
+        </div>
+      </div>
+    </div>
+    <div class="form">
+      <div class="col-xs-12 col-sm-4 col-lg-4">
+        <form action="#" class="form-inline">
+          <h4>Book this flat</h4>
+          <input type="Checkin" class="form-control input" id="Checkin" placeholder="checkin">
+          <input type="Chekout" class="form-control input" id="Checkout" placeholder="chekout">
+          <select name id class="form-control input-lg">
+            <option value="1">1 guest</option>
+            <option value="2">2 guests</option>
+            <option value="3">3 guests</option>
+          </select>
+          <button type="submit" class="btn btn-danger btn-lg">Book it</button>
+        </form>
+      </div>
+    </div>
+    <div class="detail flat">
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+        <h1>About this flat</h1>
+        <p>Placeholder:"description"</p>
+          <p>wifi: <%= flat.wifi %></p>
+          <p>bedroom: <%= flat.bedroom %></p>
+          <p>pets: <%= flat.pets %></p>
+        </div>
+    </div>
+  </div>
+</div>
+
